@@ -16,7 +16,6 @@ function App() {
           <Route path = "/ContactUs" component={ContactUs} />
           <Route path = "/PastEvents" component={PastEventsPage} />
           <Route path = "/" component={Home} />
-          <Route path = "/#" component={Home} />
           <Route component={() => (<div>404 Not found 1</div>)} />
         </Switch>
       </Router>
