@@ -181,7 +181,7 @@ During this workshop, students learned strategies to perform better in technical
                     </Card>
                 </div>
             </OwlCarousel>;
-            <Link to="/PastEvents/#2020" style={{ textDecoration: 'none' }} className="container Button-center-past-event"><Button>See more</Button></Link>
+            <Link to="/PastEvents" style={{ textDecoration: 'none' }} className="container Button-center-past-event"><Button>See more</Button></Link>
         </section>
     );
 }

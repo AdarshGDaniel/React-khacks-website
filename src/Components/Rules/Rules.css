@@ -32,3 +32,10 @@
 .arrow-buttons a:active{
     color: #0085b6 !important;
 }
+
+@media (max-width: 768px){
+    .main-doc{
+        max-width: 300px !important;
+        overflow:auto;
+    }
+}

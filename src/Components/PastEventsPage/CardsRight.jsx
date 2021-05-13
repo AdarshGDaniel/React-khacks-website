@@ -8,7 +8,7 @@ import './Cards.css'
 function Cards(props) {
     return (
         <div>
-            <Card style={{justifyContent: 'space-between'}} className="card-holder">
+            <Card style={{justifyContent: 'space-between'}} className="card-holder" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="0">
                 <div>
                     <CardContent>
                     <Typography component="h5" variant="h5">

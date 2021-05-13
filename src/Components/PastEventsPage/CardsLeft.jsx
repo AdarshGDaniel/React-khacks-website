@@ -8,7 +8,7 @@ import './Cards.css'
 function Cards(props) {
     return (
         <div>
-            <Card className="card-holder">
+            <Card className="card-holder" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="0">
                 <CardMedia
                         className = "card-imageo"
                         image={props.image}
