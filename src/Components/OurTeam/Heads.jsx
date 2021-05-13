@@ -4,7 +4,7 @@ import Adarsh from './Assets/adarsh.jpg'
 import SaranSud from './Assets/saransud.jpg'
 import Sharan from './Assets/sharan.jpeg'
 import JoeSam from './Assets/josephsam.JPG'
-import Ben from './Assets/benvin.jpg'
+import Ben from './Assets/benvin.jpeg'
 import Front from './Assets/front.jpg'
 import { FaTelegramPlane, FaInstagram, FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 

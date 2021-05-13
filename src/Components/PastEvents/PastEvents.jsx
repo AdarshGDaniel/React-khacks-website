@@ -60,7 +60,7 @@ function PastEvents(props) {
                 <CardsScroll image={img4} Title="LHD Build the Future 2019" description="On (Date) we hit a major milestone, we conducted a 24hr Hackathon for the first time and it was a great success!" Date= "12th - 13th Dec 2019" />
                 <CardsScroll image={img5} Title="Hacktober Fest" description="Hacktober Fest was targeted for the first years to encorage them to code and win prizes. Students learnt about GitHub and its use during this Workshop." Date= "15th Oct 2019" />
                 <CardsScroll image={img6} Title="Bootcamp" description="This was a 4 Day Bootcamp which included Amazon Alexa, Advanced Python, Python Automation and Data Science. " Date= "14th to 23rd Oct 2019" />
-            </OwlCarousel>;
+            </OwlCarousel>
             <Link to="/PastEvents" style={{ textDecoration: 'none' }} className="container Button-center-past-event"><Button>See more</Button></Link>
         </section>
     );
