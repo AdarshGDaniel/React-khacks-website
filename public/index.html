@@ -2,42 +2,85 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="./KH Logo - ico.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./JsFiles/HeadImage.js"></script>
+    <script src="./JsFiles/1.8.2.min.js"></script>
+    <script src="./JsFiles/jquery.js"></script>
     <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+      name="KHacks"
+      content="Student Organization affiliated to Karunya University"
+    />    
+    <title>Karunya Hacks</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <script type="text/javascript">
+      var mouseX;
+      var mouseY;
+      var imageOne;
+      var imageTwo;
+      var imageThree;
+      var imageFour;
+      var imageFive;
+      var imageSix;
+      var imageSeven;
+      var imageEight;
+      var imageNine;
+      var imageTen;
+      var imageEleven;
+      var imageTwelve;
+      
+      $(init);
+      
+      $(window).load(init);
+      $(window).resize(init);
+      
+      $(window).mousemove(getMousePosition);
+      
+      function init(){
+          
+          mouseX = 0;
+          mouseY = 0;
+          
+          imageOne = new HeadImage("one");
+          imageTwo = new HeadImage("two");
+          imageThree = new HeadImage("three");
+          imageFour = new HeadImage("four");
+          imageFive = new HeadImage("five");
+          imageSix = new HeadImage("six");
+          imageSeven = new HeadImage("seven");
+          imageEight = new HeadImage("eight");
+          imageNine = new HeadImage("nine");
+          imageTen = new HeadImage("ten");
+          imageEleven = new HeadImage("eleven");
+          imageTwelve = new HeadImage("twelve");
+      }
+      
+      function getMousePosition(event){
+          
+          mouseX = event.pageX;
+          mouseY = event.pageY;                
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+          imageOne.setImageDirection();
+          imageTwo.setImageDirection();
+          imageThree.setImageDirection();
+          imageFour.setImageDirection();
+          imageFive.setImageDirection();
+          imageSix.setImageDirection();
+          imageSeven.setImageDirection();
+          imageEight.setImageDirection();
+          imageNine.setImageDirection();
+          imageTen.setImageDirection();
+          imageEleven.setImageDirection();
+          imageTwelve.setImageDirection();
+      }
+      
+  </script>
   </body>
 </html>

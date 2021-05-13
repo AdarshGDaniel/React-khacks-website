@@ -1,0 +1,15 @@
+.card-holder{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: -3px 4px 12px -5px rgba(0,0,0,0.35) !important;
+}
+
+
+.card-imageo{
+    height:300px;
+    width: 500px;
+    background-size: cover;
+    object-fit: contain;
+}

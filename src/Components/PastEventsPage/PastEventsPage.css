@@ -1,0 +1,14 @@
+.timeline-fixed{
+    position: fixed;
+}
+
+.topic-year{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.line-red{
+    width: 50%;
+    border : 1px solid red;
+}

@@ -1,0 +1,128 @@
+.price-card-container{
+    margin-top: 20px;
+    min-height: 1000px;
+    position: relative;
+    background-image: url(./Assets/imagebg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.priceCard{
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+    height: auto;
+    background-color: rgb(255, 255, 255);   
+    max-width: 350px;
+    transition: all 0.3s ease-in-out;
+}
+.overlay-for-pricingImg{
+    background-color: rgba(255, 0, 0, 0.7);
+    position: absolute;
+    display: grid;
+    place-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wave1{
+    transform: rotate(180deg);
+    width: 100%;
+    top:-1px;
+    vertical-align: middle;
+    position: absolute;
+    object-fit: contain;
+
+    overflow: hidden;
+}
+
+.wave2{
+    bottom:-1px;
+    width: 100%;
+    vertical-align: middle;
+    position: absolute;
+    object-fit: contain;
+
+    overflow: hidden;
+}
+
+.priceCard:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.952);
+    transform: translateY(-10px);
+}
+
+@media (min-width: 990px){
+    .aliment-pricingcard{
+        padding-top: 200px;
+        padding-bottom: 200px;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 990px){
+    .aliment-pricingcard{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        flex-direction: column;
+    }
+}
+
+.price-point{
+    margin-top: 30px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    height: 150px;
+}
+.priceCard-content{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.priceCard-content li{
+    margin: 10px;
+}
+
+.price-point span{
+    font-size: 1.2rem;
+}
+
+.price-point h1{
+    font-size: 3rem;
+}
+
+
+.aliment-pricingcard{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.line-card{
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.price-contact{
+    background-color: #00b7fa !important;
+    color: #FFF !important;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.23);
+    transition: all 0.3s ease-in-out !important;
+    transform: translateY(0);
+    margin: 20px !important;
+}
+
+.price-contact:hover{
+    background-color: #009cd4 !important;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-5px);
+}

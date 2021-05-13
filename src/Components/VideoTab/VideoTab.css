@@ -1,0 +1,22 @@
+.video-container{
+    display: grid;
+    place-items: center;
+    background-image: url("./Assets/c_1.png");
+    background-size: contain;
+}
+
+
+@media(min-width: 700px){
+    .Video-box{
+        object-fit: contain;
+        max-width: 600px;
+    }    
+}
+
+@media(max-width: 700px){
+    .Video-box{
+        object-fit: contain;
+        width: 100%;
+    }
+}
+

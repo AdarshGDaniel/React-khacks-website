@@ -1,0 +1,44 @@
+.club-icon{
+    transition: all 0.3s ease-in-out;
+    width: 5rem !important;
+    height: 5rem !important;
+    margin-bottom: 20px !important;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.096);
+    padding: 20px;
+    fill: #FF0001 !important;
+}
+
+
+.club-section{
+    text-align: center;
+}
+
+.wrapper{
+    justify-content: center;
+}
+.card-club{
+    margin: 20px !important;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.wrapper .club-icon{
+    display: inline-block;
+}
+@media (min-width: 1000px) {
+    .wrapper{
+    }
+}
+
+.card-club:hover{
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-10px)
+}
+
+.card-club:hover .club-icon{
+    transition: all 0.3s ease-in-out;
+    background-color: #FF0011;
+    fill: #FFF !important;
+}
