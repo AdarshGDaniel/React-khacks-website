@@ -28,7 +28,7 @@ function NavBootstrap(props) {
 
     return (
         <Navbar className={showNav ? 'nav-main-bar active':'nav-main-bar'} collapseOnSelect expand="lg" bg="transperent" sticky="top" variant="light">
-        <Navbar.Brand href="/#"><img width="150px" src={logo} alt="KHacks Logo"/></Navbar.Brand>
+        <Navbar.Brand href="Home"><img width="150px" src={logo} alt="KHacks Logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <div className="mr-auto"></div>
