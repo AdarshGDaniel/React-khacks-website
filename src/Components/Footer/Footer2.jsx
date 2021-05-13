@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button'
 import { AiFillHeart } from "react-icons/ai";
 import { FaTelegramPlane, FaInstagram, FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { Link } from 'react-router-dom'
-
+import { Link as LINK, animateScroll as scroll } from "react-scroll";
 
 
 function Footer(props) {
@@ -29,8 +29,6 @@ function Footer(props) {
                         <a href="https://t.me/karunyahacks" target="_blank"><FaTelegramPlane size="20" /></a>
                     </div>
                     <div className="inforLinks">
-                        <Link style={{textDecoration: 'none'}} to='OurTeam'>Our Team</Link>•
-                        <Link style={{textDecoration: 'none'}} to='Sponsors'>Sponsor</Link>•
                         <Link style={{textDecoration: 'none'}} to='PastEvents'>Events</Link>•
                         <Link style={{textDecoration: 'none'}} to='Rules'>Terms & Conditions</Link>
                     </div>

@@ -3,6 +3,7 @@ import './nav-bootstrap.css'
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './KHLogo.png';
+import { Link as LINK } from 'react-router-dom'
 
 function NavBootstrap(props) {
 
@@ -32,12 +33,9 @@ function NavBootstrap(props) {
         <Navbar.Collapse id="responsive-navbar-nav">
             <div className="mr-auto"></div>
             <Nav>
-            <Nav.Link className="nav-buttons" href="/#About">About</Nav.Link>
-            <Nav.Link className="nav-buttons" href="/#PastEvents">Past Events</Nav.Link>
-            <Nav.Link className="nav-buttons" href="/#Schedule">Schedule</Nav.Link>
-            <Nav.Link className="nav-buttons" href="/#Sponsors">Sponsors</Nav.Link>
-            <Nav.Link className="nav-buttons" href="/ContactUs">Contact</Nav.Link>
-            <Nav.Link className="nav-buttons" href="Rules">Rules</Nav.Link>
+            <Navbar.Text className="nav-buttons"><LINK style={{textDecoration: 'none'}} to="Home">Home</LINK></Navbar.Text>
+            <Navbar.Text className="nav-buttons"><LINK style={{textDecoration: 'none'}} to="ContactUs">Contact</LINK></Navbar.Text>
+            <Navbar.Text className="nav-buttons"><LINK style={{textDecoration: 'none'}} to="Rules">Rules</LINK></Navbar.Text>
             <div className="underbar"></div>
             </Nav>
         </Navbar.Collapse>

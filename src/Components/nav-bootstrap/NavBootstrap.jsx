@@ -3,6 +3,7 @@ import './nav-bootstrap.css'
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './KHLogo.png';
+import { Link as LINK } from 'react-router-dom'
 import { Link, animateScroll as scroll } from "react-scroll";
 
 function NavBootstrap(props) {
@@ -37,8 +38,8 @@ function NavBootstrap(props) {
             <Navbar.Text className="nav-buttons"><Link activeClass="active" to="PastEvents" spy={true} smooth={true} offset={0} duration={500}>Past Events</Link></Navbar.Text>
             <Navbar.Text className="nav-buttons"><Link activeClass="active" to="Schedule" spy={true} smooth={true} offset={0} duration={500}>Schedule</Link></Navbar.Text>
             <Navbar.Text className="nav-buttons"><Link activeClass="active" to="Sponsors" spy={true} smooth={true} offset={0} duration={500}>Sponsors</Link></Navbar.Text>
-            <Nav.Link className="nav-buttons" href="ContactUs#">Contact</Nav.Link>
-            <Nav.Link className="nav-buttons" href="Rules#">Rules</Nav.Link>
+            <Navbar.Text className="nav-buttons"><LINK style={{textDecoration: 'none'}} to="ContactUs">Contact</LINK></Navbar.Text>
+            <Navbar.Text className="nav-buttons"><LINK style={{textDecoration: 'none'}} to="Rules">Rules</LINK></Navbar.Text>
             <div className="underbar"></div>
             </Nav>
         </Navbar.Collapse>
