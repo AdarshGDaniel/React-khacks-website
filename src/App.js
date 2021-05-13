@@ -23,6 +23,7 @@ function App() {
           <Route path = "/ContactUs" component={ContactUs} />
           <Route path = "/PastEvents" component={PastEventsPage} />
           <Route path = "/" component={Home} />
+          <Route path = "/#" component={Home} />
         </Switch>
       </Router>
     </div>
