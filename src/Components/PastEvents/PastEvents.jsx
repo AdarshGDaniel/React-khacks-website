@@ -7,14 +7,17 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import img1 from './Assets/pic5.jpg'
-import img2 from './Assets/pic01.jpg'
-import img3 from './Assets/pic02.jpg'
-import img4 from './Assets/pic7.jpg'
+import img1 from './Assets/pic1.JPG'
+import img2 from './Assets/pic2.JPG'
+import img3 from './Assets/pic3.png'
+import img4 from './Assets/pic4.JPG'
+import img5 from './Assets/pic5.JPG'
+import img6 from './Assets/pic6.jpg'
 import FiberNewOutlinedIcon from '@material-ui/icons/FiberNewOutlined';
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import CardsScroll from './CardsScroll'
 
 function PastEvents(props) {
 
@@ -51,135 +54,12 @@ function PastEvents(props) {
                 loop
                 responsive = {state.responsive}
                 data-aos="fade-up" data-aos-delay="300">
-                <div className='item'>
-                    <Card className="event-card" style={{maxWidth: "345px"}}>
-                        <CardActionArea >
-                            <CardMedia
-                            style={{height: "240px"}}
-                            image={img2}
-                            title="Contemplative Reptile"
-                            />
-                            <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2" style={{textAlign: "left"}}>
-                            HACKING WITH AMAZON ALEXA
-                            </Typography>
-                            <Typography variant="body1" className="content-text-date" component="p">20th Feb 2021</Typography>
-                            <Typography className="content-text-card" variant="body2" component="p">
-                                We have conducted Hacking with Amazon Alexa workshop in association with MLH Local Host continuously for the past two years.During this workshop participants will be taught the basics of how to build skills for Amazon Alexa to run on Alexa devices like the Amazon Tap or Echo.
-                            </Typography>
-                            <FiberNewOutlinedIcon style={{fill: "#00AEEF"}}/>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-                </div>
-                <div className='item'>
-                    <Card className="event-card" style={{maxWidth: "345px"}}>
-                        <CardActionArea >
-                            <CardMedia
-                            style={{height: "240px"}}
-                            image={img1}
-                            title="Contemplative Reptile"
-                            />
-                            <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                            HACK THE TECHNICAL INTERVIEW: ALGORITHMS PRACTICE
-                            </Typography>
-                            <Typography variant="body1" className="content-text-date" component="p">20th Feb 2021</Typography>
-                            <Typography className="content-text-card" variant="body2" color="textSecondary" component="p">
-                            In association with MLH Local Host we conducted Hack the Technical Interview workshop.
-During this workshop, students learned strategies to perform better in technical interviews.
-                            </Typography>
-                            <FiberNewOutlinedIcon style={{fill: "#00AEEF"}}/>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-                </div>
-                <div className='item'>
-                    <Card className="event-card" style={{maxWidth: "345px"}}>
-                        <CardActionArea >
-                            <CardMedia
-                            style={{height: "240px"}}
-                            image={img3}
-                            title="Contemplative Reptile"
-                            />
-                            <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                            INTRODUCTION TO DOCKER
-                            </Typography>
-                            <Typography variant="body1" className="content-text-date" component="p">20th Feb 2021</Typography>
-                            <Typography className="content-text-card" variant="body2" color="textSecondary" component="p">
-                            During this workshop students were taught the basics of Docker and Software Containers. The workshop covered setting up Docker, running first container, creating a basic web application with Python and Docker, and how to push the Docker Image to DockerHub.
-                            </Typography>
-                            <FiberNewOutlinedIcon style={{fill: "#00AEEF"}}/>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-                </div>
-                <div className='item'>
-                    <Card className="event-card" style={{maxWidth: "345px"}}>
-                        <CardActionArea >
-                            <CardMedia
-                            style={{height: "240px"}}
-                            image={img4}
-                            title="Contemplative Reptile"
-                            />
-                            <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                            PYTHON GUI
-                            </Typography>
-                            <Typography variant="body1" className="content-text-date" component="p">20th Feb 2021</Typography>
-                            <Typography className="content-text-card" variant="body2" color="textSecondary" component="p">
-                            Conducted first self-hosted workshop on python using GUI using Tkinter and Django Web framework on 17th Dec 2018.
-                            </Typography>
-                            <FiberNewOutlinedIcon style={{fill: "#00AEEF"}}/>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-                </div>
-                <div className='item'>
-                    <Card className="event-card" style={{maxWidth: "345px"}}>
-                        <CardActionArea >
-                            <CardMedia
-                            style={{height: "240px"}}
-                            image={img2}
-                            title="Contemplative Reptile"
-                            />
-                            <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                                Lizard
-                            </Typography>
-                            <Typography variant="body1" className="content-text-date" component="p">20th Feb 2021</Typography>
-                            <Typography className="content-text-card" variant="body2" color="textSecondary" component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                across all continents except Antarctica
-                            </Typography>
-                            <FiberNewOutlinedIcon style={{fill: "#00AEEF"}}/>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-                </div>
-                <div className='item'>
-                    <Card className="event-card" style={{maxWidth: "345px"}}>
-                        <CardActionArea >
-                            <CardMedia
-                            style={{height: "240px"}}
-                            image={img2}
-                            title="Contemplative Reptile"
-                            />
-                            <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                                Lizard
-                            </Typography>
-                            <Typography variant="body1" className="content-text-date" component="p">20th Feb 2021</Typography>
-                            <Typography className="content-text-card" variant="body2" color="textSecondary" component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                across all continents except Antarctica
-                            </Typography>
-                            <FiberNewOutlinedIcon style={{fill: "#00AEEF"}}/>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-                </div>
+                <CardsScroll image={img1} Title="Bootcamp 1 2021" description="We conducted a Virtual 3 Day Bootcamp for the students on the topics: Python Advanced, Web development and Amazon Alexa & Google Assistant." Date= "3rd to 5th Mar 2021" />
+                <CardsScroll image={img2} Title="Python for all" description="In collabration with CTC (Computer Technology Center) we had a 2 Day Virtual workshop on Python." Date= "26th & 27th Feeb 2021" />
+                <CardsScroll image={img3} Title="MLH: Intro to Python" description="KHacks collabrated with MLH (Major League Hacking) and conducted a Python workshop for the beginners." Date= "16th Nov 2020" />
+                <CardsScroll image={img4} Title="LHD Build the Future 2019" description="On (Date) we hit a major milestone, we conducted a 24hr Hackathon for the first time and it was a great success!" Date= "12th - 13th Dec 2019" />
+                <CardsScroll image={img5} Title="Hacktober Fest" description="Hacktober Fest was targeted for the first years to encorage them to code and win prizes. Students learnt about GitHub and its use during this Workshop." Date= "15th Oct 2019" />
+                <CardsScroll image={img6} Title="Bootcamp" description="This was a 4 Day Bootcamp which included Amazon Alexa, Advanced Python, Python Automation and Data Science. " Date= "14th to 23rd Oct 2019" />
             </OwlCarousel>;
             <Link to="/PastEvents" style={{ textDecoration: 'none' }} className="container Button-center-past-event"><Button>See more</Button></Link>
         </section>

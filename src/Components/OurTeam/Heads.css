@@ -31,6 +31,7 @@
     height: 200px;
     filter: grayscale(100%);
     transition: all 0.3s ease-in-out;
+    object-fit: cover;
 }
 .team-box:hover .team-text{
     transition: all 0.3s ease-in-out;
