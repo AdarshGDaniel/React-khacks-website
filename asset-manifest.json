@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-khacks-website/static/css/main.ff083485.chunk.css",
-    "main.js": "/React-khacks-website/static/js/main.6642b7c5.chunk.js",
-    "main.js.map": "/React-khacks-website/static/js/main.6642b7c5.chunk.js.map",
+    "main.css": "/React-khacks-website/static/css/main.6de20c8e.chunk.css",
+    "main.js": "/React-khacks-website/static/js/main.46357a22.chunk.js",
+    "main.js.map": "/React-khacks-website/static/js/main.46357a22.chunk.js.map",
     "runtime-main.js": "/React-khacks-website/static/js/runtime-main.f9043af3.js",
     "runtime-main.js.map": "/React-khacks-website/static/js/runtime-main.f9043af3.js.map",
     "static/css/2.abc7b9d0.chunk.css": "/React-khacks-website/static/css/2.abc7b9d0.chunk.css",
-    "static/js/2.cfb770df.chunk.js": "/React-khacks-website/static/js/2.cfb770df.chunk.js",
-    "static/js/2.cfb770df.chunk.js.map": "/React-khacks-website/static/js/2.cfb770df.chunk.js.map",
+    "static/js/2.6830b9e7.chunk.js": "/React-khacks-website/static/js/2.6830b9e7.chunk.js",
+    "static/js/2.6830b9e7.chunk.js.map": "/React-khacks-website/static/js/2.6830b9e7.chunk.js.map",
     "index.html": "/React-khacks-website/index.html",
     "static/css/2.abc7b9d0.chunk.css.map": "/React-khacks-website/static/css/2.abc7b9d0.chunk.css.map",
-    "static/css/main.ff083485.chunk.css.map": "/React-khacks-website/static/css/main.ff083485.chunk.css.map",
-    "static/js/2.cfb770df.chunk.js.LICENSE.txt": "/React-khacks-website/static/js/2.cfb770df.chunk.js.LICENSE.txt",
+    "static/css/main.6de20c8e.chunk.css.map": "/React-khacks-website/static/css/main.6de20c8e.chunk.css.map",
+    "static/js/2.6830b9e7.chunk.js.LICENSE.txt": "/React-khacks-website/static/js/2.6830b9e7.chunk.js.LICENSE.txt",
     "static/media/1.e57757f6.jpeg": "/React-khacks-website/static/media/1.e57757f6.jpeg",
     "static/media/2.30e98db2.jpg": "/React-khacks-website/static/media/2.30e98db2.jpg",
     "static/media/Gatsby.b205709d.png": "/React-khacks-website/static/media/Gatsby.b205709d.png",
@@ -37,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.f9043af3.js",
     "static/css/2.abc7b9d0.chunk.css",
-    "static/js/2.cfb770df.chunk.js",
-    "static/css/main.ff083485.chunk.css",
-    "static/js/main.6642b7c5.chunk.js"
+    "static/js/2.6830b9e7.chunk.js",
+    "static/css/main.6de20c8e.chunk.css",
+    "static/js/main.46357a22.chunk.js"
   ]
 }
