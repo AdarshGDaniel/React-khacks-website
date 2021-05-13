@@ -23,7 +23,7 @@ function Clubs(props) {
 
     return (
         <section className="container mar-top-bot-50 club-section" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            <h2 className="align-center container"><h style={colorRed}>K</h><h style={colorBlue}>Hacks</h> Club</h2>
+            <h2 className="align-center container"><span style={colorRed}>K</span><span style={colorBlue}>Hacks</span> Club</h2>
             <div className="heading-underline-center"><div className="heading-underline"></div></div>
             <div className="container-fluid row wrapper">
             <div data-aos="fade-up" data-aos-delay="100">

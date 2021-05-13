@@ -30,10 +30,10 @@ function Footer(props) {
                         <a href="https://t.me/karunyahacks" target="_blank"><FaTelegramPlane size="20" /></a>
                     </div>
                     <div className="inforLinks">
-                        <a href=""><LINK activeClass="active" to="OurTeam" spy={true} smooth={true} offset={0} duration={500}>Our Team</LINK></a>•
-                        <a href=""><LINK activeClass="active" to="Sponsors" spy={true} smooth={true} offset={0} duration={500}>Sponsor</LINK></a>•
-                        <a href=""><LINK activeClass="active" to="PastEvents" spy={true} smooth={true} offset={0} duration={500}>Events</LINK></a>•
-                        <Link style={{textDecoration: 'none'}} to='Rules'><a>Terms & Conditions</a></Link>
+                        <LINK style={{cursor: 'pointer'}} activeClass="active" to="OurTeam" spy={true} smooth={true} offset={0} duration={500}>Our Team</LINK>•
+                        <LINK style={{cursor: 'pointer'}} activeClass="active" to="Sponsors" spy={true} smooth={true} offset={0} duration={500}>Sponsor</LINK>•
+                        <LINK style={{cursor: 'pointer'}} activeClass="active" to="PastEvents" spy={true} smooth={true} offset={0} duration={500}>Events</LINK>•
+                        <Link style={{textDecoration: 'none'}} to='Rules'>Terms & Conditions</Link>
                     </div>
                     <div className="copywrite">
                         <p>© 2021 Karunya Hacks</p>

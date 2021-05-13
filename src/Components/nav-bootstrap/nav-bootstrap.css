@@ -4,7 +4,9 @@
     font-size: 1.2rem;
     -webkit-transition: 0.5s ease;
 }
-
+.nav-buttons:hover{
+  cursor: pointer;
+}
 .underbar{
     width: 0;
     height: 5px;
@@ -49,6 +51,9 @@
   .nav-main-bar .nav-buttons{
     color:#FFF !important;
   }
+  .nav-main-bar .nav-buttons a{
+    color:#FFF !important;
+  }
   .nav-main-bar.active{
     transition: all 0.3s ease-in-out;
     background-color: #FFF !important;
@@ -58,6 +63,10 @@
   .nav-main-bar.active .nav-buttons{
     color:rgb(37, 37, 37) !important;
   }
+  .nav-main-bar.active .nav-buttons a{
+    color:rgb(37, 37, 37) !important;
+  }
+  
 
 
   

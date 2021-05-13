@@ -6,7 +6,7 @@ function VideoTab(props) {
     return (
         <section className="mar-top-bot-50">
             <div className="video-container">
-                <video className="Video-box" src={Video} type="video/mp4" muted="true" loop="true" autoplay="true"></video>
+                <video className="Video-box" src={Video} type="video/mp4" muted={true} loop={true} autoPlay={true}></video>
             </div>
         </section>
     );

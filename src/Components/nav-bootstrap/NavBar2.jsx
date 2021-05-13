@@ -3,7 +3,6 @@ import './nav-bootstrap.css'
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './KHLogo.png';
-import { Link, animateScroll as scroll } from "react-scroll";
 
 function NavBootstrap(props) {
 
@@ -39,7 +38,7 @@ function NavBootstrap(props) {
             <Nav.Link className="nav-buttons" href="/#Sponsors">Sponsors</Nav.Link>
             <Nav.Link className="nav-buttons" href="/ContactUs">Contact</Nav.Link>
             <Nav.Link className="nav-buttons" href="Rules">Rules</Nav.Link>
-            <div class="underbar"></div>
+            <div className="underbar"></div>
             </Nav>
         </Navbar.Collapse>
         </Navbar>

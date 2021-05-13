@@ -4,7 +4,6 @@ import Button from '@material-ui/core/Button'
 import { AiFillHeart } from "react-icons/ai";
 import { FaTelegramPlane, FaInstagram, FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { Link } from 'react-router-dom'
-import { Link as LINK, animateScroll as scroll } from "react-scroll";
 
 
 

@@ -33,13 +33,13 @@ function NavBootstrap(props) {
         <Navbar.Collapse id="responsive-navbar-nav">
             <div className="mr-auto"></div>
             <Nav>
-            <Nav.Link className="nav-buttons"><Link activeClass="active" to="About" spy={true} smooth={true} offset={0} duration={500}>About</Link></Nav.Link>
-            <Nav.Link className="nav-buttons"><Link activeClass="active" to="PastEvents" spy={true} smooth={true} offset={0} duration={500}>Past Events</Link></Nav.Link>
-            <Nav.Link className="nav-buttons"><Link activeClass="active" to="Schedule" spy={true} smooth={true} offset={0} duration={500}>Schedule</Link></Nav.Link>
-            <Nav.Link className="nav-buttons"><Link activeClass="active" to="Sponsors" spy={true} smooth={true} offset={0} duration={500}>Sponsors</Link></Nav.Link>
+            <Navbar.Text className="nav-buttons"><Link activeClass="active" to="About" spy={true} smooth={true} offset={0} duration={500}>About</Link></Navbar.Text>
+            <Navbar.Text className="nav-buttons"><Link activeClass="active" to="PastEvents" spy={true} smooth={true} offset={0} duration={500}>Past Events</Link></Navbar.Text>
+            <Navbar.Text className="nav-buttons"><Link activeClass="active" to="Schedule" spy={true} smooth={true} offset={0} duration={500}>Schedule</Link></Navbar.Text>
+            <Navbar.Text className="nav-buttons"><Link activeClass="active" to="Sponsors" spy={true} smooth={true} offset={0} duration={500}>Sponsors</Link></Navbar.Text>
             <Nav.Link className="nav-buttons" href="ContactUs#">Contact</Nav.Link>
             <Nav.Link className="nav-buttons" href="Rules#">Rules</Nav.Link>
-            <div class="underbar"></div>
+            <div className="underbar"></div>
             </Nav>
         </Navbar.Collapse>
         </Navbar>
