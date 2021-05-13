@@ -29,10 +29,10 @@ function Footer(props) {
                         <a href="https://t.me/karunyahacks" target="_blank"><FaTelegramPlane size="20" /></a>
                     </div>
                     <div className="inforLinks">
-                        <a href="/#OurTeam">Our Team</a>•
-                        <a href="/#Sponsors">Sponsor</a>•
-                        <a href="/#PastEvents">Events</a>•
-                        <Link style={{textDecoration: 'none'}} to='Rules'><a>Terms & Conditions</a></Link>
+                        <Link style={{textDecoration: 'none'}} to='OurTeam'>Our Team</Link>•
+                        <Link style={{textDecoration: 'none'}} to='Sponsors'>Sponsor</Link>•
+                        <Link style={{textDecoration: 'none'}} to='PastEvents'>Events</Link>•
+                        <Link style={{textDecoration: 'none'}} to='Rules'>Terms & Conditions</Link>
                     </div>
                     <div className="copywrite">
                         <p>© 2021 Karunya Hacks</p>

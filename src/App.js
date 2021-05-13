@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router baseRoute={"/"}>
         <Switch>
           <Route path = "/Rules" component={Rules} />
           <Route path = "/ContactUs" component={ContactUs} />
