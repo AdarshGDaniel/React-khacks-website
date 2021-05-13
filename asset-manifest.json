@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-khacks-website/static/css/main.80269311.chunk.css",
-    "main.js": "/React-khacks-website/static/js/main.3697da7e.chunk.js",
-    "main.js.map": "/React-khacks-website/static/js/main.3697da7e.chunk.js.map",
+    "main.js": "/React-khacks-website/static/js/main.5a03714b.chunk.js",
+    "main.js.map": "/React-khacks-website/static/js/main.5a03714b.chunk.js.map",
     "runtime-main.js": "/React-khacks-website/static/js/runtime-main.f9043af3.js",
     "runtime-main.js.map": "/React-khacks-website/static/js/runtime-main.f9043af3.js.map",
     "static/css/2.abc7b9d0.chunk.css": "/React-khacks-website/static/css/2.abc7b9d0.chunk.css",
@@ -18,7 +18,7 @@
     "static/media/KHacksVID.8da0218c.mp4": "/React-khacks-website/static/media/KHacksVID.8da0218c.mp4",
     "static/media/Znetlive.ce257f4c.png": "/React-khacks-website/static/media/Znetlive.ce257f4c.png",
     "static/media/adarsh.30c06af4.jpg": "/React-khacks-website/static/media/adarsh.30c06af4.jpg",
-    "static/media/benvin.ad3ed297.jpg": "/React-khacks-website/static/media/benvin.ad3ed297.jpg",
+    "static/media/benvin.17f8ed66.jpeg": "/React-khacks-website/static/media/benvin.17f8ed66.jpeg",
     "static/media/FAQ.css": "/React-khacks-website/static/media/bg.3e91c34d.jpg",
     "static/media/ContactUs.css": "/React-khacks-website/static/media/bg.b626d8a8.jpg",
     "static/media/c_1.3e1baeed.jpg": "/React-khacks-website/static/media/c_1.3e1baeed.jpg",
@@ -44,6 +44,6 @@
     "static/css/2.abc7b9d0.chunk.css",
     "static/js/2.1c71d210.chunk.js",
     "static/css/main.80269311.chunk.css",
-    "static/js/main.3697da7e.chunk.js"
+    "static/js/main.5a03714b.chunk.js"
   ]
 }
