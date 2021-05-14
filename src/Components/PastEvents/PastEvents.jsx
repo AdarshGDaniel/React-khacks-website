@@ -55,7 +55,7 @@ function PastEvents(props) {
                 responsive = {state.responsive}
                 data-aos="fade-up" data-aos-delay="300">
                 <CardsScroll image={img1} Title="Bootcamp 1 2021" description="We conducted a Virtual 3 Day Bootcamp for the students on the topics: Python Advanced, Web development and Amazon Alexa & Google Assistant." Date= "3rd to 5th Mar 2021" />
-                <CardsScroll image={img2} Title="Python for all" description="In collabration with CTC (Computer Technology Center) we had a 2 Day Virtual workshop on Python." Date= "26th & 27th Feeb 2021" />
+                <CardsScroll image={img2} Title="Python for all" description="In collabration with CTC (Computer Technology Center) we had a 2 Day Virtual workshop on Python." Date= "26th & 27th Feb 2021" />
                 <CardsScroll image={img3} Title="MLH: Intro to Python" description="KHacks collabrated with MLH (Major League Hacking) and conducted a Python workshop for the beginners." Date= "16th Nov 2020" />
                 <CardsScroll image={img4} Title="LHD Build the Future 2019" description="On (Date) we hit a major milestone, we conducted a 24hr Hackathon for the first time and it was a great success!" Date= "12th - 13th Dec 2019" />
                 <CardsScroll image={img5} Title="Hacktober Fest" description="Hacktober Fest was targeted for the first years to encorage them to code and win prizes. Students learnt about GitHub and its use during this Workshop." Date= "15th Oct 2019" />

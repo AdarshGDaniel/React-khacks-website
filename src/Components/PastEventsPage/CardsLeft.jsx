@@ -19,6 +19,9 @@ function Cards(props) {
                     <Typography component="h5" variant="h5">
                         {props.title}
                     </Typography>
+                    <Typography variant="subtitle2" color="textSecondary">
+                        {props.date}
+                    </Typography>
                     <Typography variant="subtitle1" color="textSecondary">
                         {props.description}
                     </Typography>
