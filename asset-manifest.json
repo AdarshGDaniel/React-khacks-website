@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-khacks-website/static/css/main.80269311.chunk.css",
+    "main.css": "/React-khacks-website/static/css/main.2a92931f.chunk.css",
     "main.js": "/React-khacks-website/static/js/main.4ee2459d.chunk.js",
     "main.js.map": "/React-khacks-website/static/js/main.4ee2459d.chunk.js.map",
     "runtime-main.js": "/React-khacks-website/static/js/runtime-main.f9043af3.js",
@@ -10,7 +10,7 @@
     "static/js/2.1c71d210.chunk.js.map": "/React-khacks-website/static/js/2.1c71d210.chunk.js.map",
     "index.html": "/React-khacks-website/index.html",
     "static/css/2.abc7b9d0.chunk.css.map": "/React-khacks-website/static/css/2.abc7b9d0.chunk.css.map",
-    "static/css/main.80269311.chunk.css.map": "/React-khacks-website/static/css/main.80269311.chunk.css.map",
+    "static/css/main.2a92931f.chunk.css.map": "/React-khacks-website/static/css/main.2a92931f.chunk.css.map",
     "static/js/2.1c71d210.chunk.js.LICENSE.txt": "/React-khacks-website/static/js/2.1c71d210.chunk.js.LICENSE.txt",
     "static/media/1.164fcf1c.jpg": "/React-khacks-website/static/media/1.164fcf1c.jpg",
     "static/media/1.707f053d.jpg": "/React-khacks-website/static/media/1.707f053d.jpg",
@@ -60,7 +60,7 @@
     "static/js/runtime-main.f9043af3.js",
     "static/css/2.abc7b9d0.chunk.css",
     "static/js/2.1c71d210.chunk.js",
-    "static/css/main.80269311.chunk.css",
+    "static/css/main.2a92931f.chunk.css",
     "static/js/main.4ee2459d.chunk.js"
   ]
 }
