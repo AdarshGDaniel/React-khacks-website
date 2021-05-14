@@ -15,8 +15,9 @@
 
 @media (max-width: 768px){
     .card-imageo{
-        height:200px;
-        width: 200px;
+        min-height: 300px;
+        height:auto;
+        width: 300px;
     }
 }
 
