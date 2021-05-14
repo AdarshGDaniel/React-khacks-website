@@ -14,7 +14,7 @@ function Cards(props) {
                         image={props.image}
                         title={props.title}
                 />
-                <div>
+                <div style={{width: '60%'}}>
                     <CardContent>
                     <Typography component="h5" variant="h5">
                         {props.title}

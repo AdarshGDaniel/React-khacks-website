@@ -9,7 +9,7 @@ function Cards(props) {
     return (
         <div>
             <Card style={{justifyContent: 'space-between'}} className="card-holder" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="0">
-                <div>
+                <div style={{width: '60%'}}>
                     <CardContent>
                     <Typography component="h5" variant="h5">
                         {props.title}
