@@ -19,10 +19,10 @@ function Heads(props) {
                             <h5>Adarsh G Daniel</h5>
                             <span>(Event Cordinator)</span>
                             <div className="socialLogos-profile">
-                                <a href="https://www.facebook.com/adarshg.daniel/" target="_blank"><FaFacebookF size="20" /></a>
-                                <a href="https://twitter.com/Adarsh_G_Daniel" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="https://www.linkedin.com/in/adarsh-g-daniel-25b236192/" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="https://www.instagram.com/accounts/login/?next=/adarsh_g_daniel/" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://www.facebook.com/adarshg.daniel/" rel="noreferrer" target="_blank"><FaFacebookF size="20" /></a>
+                                <a href="https://twitter.com/Adarsh_G_Daniel" rel="noreferrer" target="_blank"><FaTwitter size="20" /></a>
+                                <a href="https://www.linkedin.com/in/adarsh-g-daniel-25b236192/" rel="noreferrer" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="https://www.instagram.com/accounts/login/?next=/adarsh_g_daniel/" rel="noreferrer" target="_blank"><FaInstagram size="20" /></a>
                             </div>
                         </div>
                     </div>
@@ -34,9 +34,9 @@ function Heads(props) {
                             <h5>Benvin</h5>
                             <span>(Event Cordinator)</span>
                             <div className="socialLogos-profile">
-                                <a href="https://www.facebook.com/benvin.david" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="https://www.linkedin.com/in/benvin-david/" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="https://www.instagram.com/benvin_david/" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://www.facebook.com/benvin.david" rel="noreferrer" target="_blank"><FaFacebookF  size="20" /></a>
+                                <a href="https://www.linkedin.com/in/benvin-david/" rel="noreferrer" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="https://www.instagram.com/benvin_david/" rel="noreferrer" target="_blank"><FaInstagram size="20" /></a>
                             </div>
                         </div>
                     </div>

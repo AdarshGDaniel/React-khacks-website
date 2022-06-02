@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tab, Row, Nav, Col, Sonnet } from 'react-bootstrap'
+import { Tab, Row, Nav, Col } from 'react-bootstrap'
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -39,7 +39,6 @@ const useStyles = makeStyles((theme) => ({
 function Schedule(props) {
 
   const classes = useStyles();
-  const theme = useTheme();
 
 
   return (

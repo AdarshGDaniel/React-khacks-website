@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './KHLogo.png';
 import { Link as LINK } from 'react-router-dom'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 function NavBootstrap(props) {
 

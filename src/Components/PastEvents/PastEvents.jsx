@@ -1,19 +1,13 @@
 import React from 'react';
 import './PastEvents.css'
 import { Link } from "react-router-dom";
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 import img1 from './Assets/AI.JPG'
 import img2 from './Assets/git and github.png'
 import img3 from './Assets/socket.png'
 import img4 from './Assets/Linux funda.png'
 import img5 from './Assets/Comp.png'
 import img6 from './Assets/CTF 2.png'
-import FiberNewOutlinedIcon from '@material-ui/icons/FiberNewOutlined';
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";

@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
 import { Card } from 'react-bootstrap';
 import './Clubs.css'
 import { IoIosLock, IoIosApps, IoLogoGameControllerA } from "react-icons/io";
 import { GoGistSecret } from "react-icons/go";
 import { GiBrain } from "react-icons/gi";
-import { AiFillCode, AiFillChrome } from "react-icons/ai";
+import { AiFillCode } from "react-icons/ai";
 import { IoThunderstorm } from "react-icons/io5";
 
 function Clubs(props) {
@@ -16,10 +15,10 @@ function Clubs(props) {
     const colorBlue = {
         color: "#00AEEF",
     }
-    const styles = {
-          width: 60,
-          height: 60,
-    }
+    // const styles = {
+    //       width: 60,
+    //       height: 60,
+    // }
 
     return (
         <section className="container mar-top-bot-50 club-section" data-aos="fade-up" data-aos-anchor-placement="top-bottom">

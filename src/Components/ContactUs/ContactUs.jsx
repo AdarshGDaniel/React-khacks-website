@@ -58,11 +58,11 @@ function ContactUs(props) {
                         </div>
                         <div className="bot">
                             <div className="social-icons-contact">
-                                <a href="https://www.facebook.com/karunyahacks/" target="_blank"><FaFacebookF size="20" /></a>
-                                <a href="https://twitter.com/karunyahacks?lang=en" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="https://www.linkedin.com/company/karunyahacks/" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="https://www.instagram.com/karunyahacks/?hl=en" target="_blank"><FaInstagram size="20" /></a>
-                                <a href="https://t.me/karunyahacks" target="_blank"><FaTelegramPlane size="20" /></a>
+                                <a href="https://www.facebook.com/karunyahacks/" rel="noreferrer" target="_blank"><FaFacebookF size="20" /></a>
+                                <a href="https://twitter.com/karunyahacks?lang=en" rel="noreferrer" target="_blank"><FaTwitter size="20" /></a>
+                                <a href="https://www.linkedin.com/company/karunyahacks/" rel="noreferrer" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="https://www.instagram.com/karunyahacks/?hl=en" rel="noreferrer" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://t.me/karunyahacks" rel="noreferrer" target="_blank"><FaTelegramPlane size="20" /></a>
                             </div>
                         </div>
                     </div>

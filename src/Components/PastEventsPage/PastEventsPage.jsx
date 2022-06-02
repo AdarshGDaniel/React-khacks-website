@@ -10,7 +10,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import CardsLeft from './CardsLeft';
 import CardsRight from './CardsRight';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import pic1 from './Assets/1.jpg';
 import pic2 from './Assets/2.jpg';
 import pic3 from './Assets/3.jpg';

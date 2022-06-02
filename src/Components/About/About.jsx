@@ -28,7 +28,7 @@ function About(props) {
                     <h4>Who are we?</h4>
                     <p>KarunyaHacks is a student hacking community which is affiliated to
                         <br /><b>Karunya Institute of Technology and Sciences</b></p>
-                    <a href="https://karunya.edu" target="_blank"><i>View more about Karunya<IoIosLink className="link-hover" /></i></a>
+                    <a href="https://karunya.edu" rel='noreferrer' target="_blank"><i>View more about Karunya<IoIosLink className="link-hover" /></i></a>
                 </div>
                 <div className="container-fluid mar-top-bot-50" data-aos="fade-up" data-aos-delay="200">
                     <h4>Who are we?</h4>
