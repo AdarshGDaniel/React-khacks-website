@@ -60,7 +60,7 @@ function Schedule(props) {
               </Nav.Item>
               <Nav.Item>
                 <div  data-aos="fade-up" data-aos-delay="400">
-                  <Nav.Link className="event-key-hover" eventKey="second">Bootcamp 2</Nav.Link>
+                  <Nav.Link className="event-key-hover" eventKey="second">C++ Workshop</Nav.Link>
                 </div>
               </Nav.Item>
             </Nav>
@@ -79,7 +79,7 @@ function Schedule(props) {
                       </Typography>
                     </CardContent>
                     <div className={classes.controls}>
-                      <a style={{textDecoration: 'none', cursor: 'not-allowed'}} target="_blank" href=""><Button className="RegisterIcon">Registration not Started</Button></a>
+                        <a style={{textDecoration: 'none', cursor: 'not-allowed'}} target="_blank" ><Button disabled className="RegisterIcon btn-disabled">Registration not Started</Button></a>
                     </div>
                   </div>
                   <CardMedia
