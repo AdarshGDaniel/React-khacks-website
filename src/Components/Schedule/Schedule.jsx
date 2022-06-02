@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import './Schedule.css'
 import img1 from './Assets/1.jpg';
+import img2 from './Assets/2.jpg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -74,17 +75,17 @@ function Schedule(props) {
                         CTF Competition
                       </Typography>
                       <Typography variant="subtitle1" color="textSecondary" style={{marginTop:'30px'}}>
-                        We bring you an amazing Competition of this year 2021. A CTF Competition where you can compete with each other to capture the Flag. Come join us in this CTF and win exciting prizes.
+                        We bring you an amazing Competition of this year 2022. A CTF Competition where you can compete with each other to capture the Flag. Come join us in this CTF and win exciting prizes.
                       </Typography>
                     </CardContent>
                     <div className={classes.controls}>
-                      <a style={{textDecoration: 'none'}} target="_blank" href="https://forms.gle/4V6i6rp6AVVsYBiQ6"><Button className="RegisterIcon">Register</Button></a>
+                      <a style={{textDecoration: 'none', cursor: 'not-allowed'}} target="_blank" href=""><Button className="RegisterIcon">Registration not Started</Button></a>
                     </div>
                   </div>
                   <CardMedia
                     className={classes.cover}
                     image={img1}
-                    title="Live from space album cover"
+                    title="CTF Competition"
                   />
                 </Card>
               </Tab.Pane>
@@ -93,10 +94,10 @@ function Schedule(props) {
                   <div className={classes.details}>
                     <CardContent className={classes.content}>
                       <Typography component="h5" variant="h5">
-                        Bootcamp 2
+                        C++ Workshop
                       </Typography>
                       <Typography variant="subtitle1" color="textSecondary" style={{marginTop:'30px'}}>
-                        We Bring to you yet another Bootcamp 2. To update and upgrade you during this Pandemic.
+                        We Bring to you yet another C++ Programming course. To update and upgrade yourself during this year.
                       </Typography>
                     </CardContent>
                     <div className={classes.controls}>
@@ -105,8 +106,8 @@ function Schedule(props) {
                   </div>
                   <CardMedia
                     className={classes.cover}
-                    image=""
-                    title="Live from space album cover"
+                    image={img2}
+                    title="C++ Workshop"
                   />
                 </Card>
               </Tab.Pane>
