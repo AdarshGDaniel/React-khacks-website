@@ -1,6 +1,12 @@
 import React from 'react'
 import './Heads.css'
 import Adarsh from './Assets/adarsh.jpg'
+<<<<<<< HEAD
+=======
+import SaranSud from './Assets/saransud.jpg'
+import Sharan from './Assets/sharan.jpeg'
+import JoeSam from './Assets/josephsam.JPG'
+>>>>>>> parent of a44c1a3 (V10)
 import Ben from './Assets/benvin.jpeg'
 import Front from './Assets/front.jpg'
 import { FaTelegramPlane, FaInstagram, FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
@@ -28,26 +34,42 @@ function Heads(props) {
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="200">
-                    <img src={Ben} alt="Benvin"/>
+                    <img src={Ben} alt="Adarsh G Daniel"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Benvin</h5>
                             <span>(Event Cordinator)</span>
                             <div className="socialLogos-profile">
+<<<<<<< HEAD
                                 <a href="https://www.facebook.com/benvin.david" rel="noreferrer" target="_blank"><FaFacebookF  size="20" /></a>
                                 <a href="https://www.linkedin.com/in/benvin-david/" rel="noreferrer" target="_blank"><FaLinkedinIn size="20" /></a>
                                 <a href="https://www.instagram.com/benvin_david/" rel="noreferrer" target="_blank"><FaInstagram size="20" /></a>
+=======
+                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
+                                <a href="" target="_blank"><FaTwitter size="20" /></a>
+                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+>>>>>>> parent of a44c1a3 (V10)
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="300">
+<<<<<<< HEAD
                     <img src={Front} alt="Ashvin Vinu"/>
+=======
+                    <img src={JoeSam} alt="Adarsh G Daniel"/>
+>>>>>>> parent of a44c1a3 (V10)
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Ashvin Vinu</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
+<<<<<<< HEAD
+=======
+                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
+                                <a href="" target="_blank"><FaTwitter size="20" /></a>
+>>>>>>> parent of a44c1a3 (V10)
                                 <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
                                 <a href="" target="_blank"><FaInstagram size="20" /></a>
                             </div>
@@ -55,12 +77,23 @@ function Heads(props) {
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="400">
+<<<<<<< HEAD
                     <img src={Front} alt="Asir Sam Shanoon A"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Asir Sam Shanoon A</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
+=======
+                    <img src={SaranSud} alt="Adarsh G Daniel"/>
+                    <div className="overlay-profile">
+                        <div className="team-text">
+                            <h5>Saran Sudheer</h5>
+                            <span>(Programming Trainer)</span>
+                            <div className="socialLogos-profile">
+                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
+                                <a href="" target="_blank"><FaTwitter size="20" /></a>
+>>>>>>> parent of a44c1a3 (V10)
                                 <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
                                 <a href="" target="_blank"><FaInstagram size="20" /></a>
                             </div>
@@ -68,6 +101,7 @@ function Heads(props) {
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="500">
+<<<<<<< HEAD
                     <img src={Front} alt="Dakshnakumar"/>
                     <div className="overlay-profile">
                         <div className="team-text">
@@ -75,6 +109,16 @@ function Heads(props) {
                             <span>(Game Dev Trainer)</span>
                             <div className="socialLogos-profile">
                                 <a href="" target="_blank"><FaFacebookF  size="20" /></a>
+=======
+                    <img src={Sharan} alt="Adarsh G Daniel"/>
+                    <div className="overlay-profile">
+                        <div className="team-text">
+                            <h5>Sharan</h5>
+                            <span>(Web Dev Trainer)</span>
+                            <div className="socialLogos-profile">
+                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
+                                <a href="" target="_blank"><FaTwitter size="20" /></a>
+>>>>>>> parent of a44c1a3 (V10)
                                 <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
                                 <a href="" target="_blank"><FaInstagram size="20" /></a>
                             </div>
@@ -83,6 +127,7 @@ function Heads(props) {
                 </div>
             </div>
             <div className="row">
+<<<<<<< HEAD
                 <div className="team-box" data-aos="fade-up" data-aos-delay="100">
                     <img src={Front} alt="Daniel Gunasekaran"/>
                     <div className="overlay-profile">
@@ -129,6 +174,14 @@ function Heads(props) {
                         <div className="team-text">
                             <h5>Emi Mary Rose</h5>
                             <span>(Trainer)</span>
+=======
+                <div className="team-box" data-aos="fade-up" data-aos-delay="600">
+                    <img src={Front} alt="Adarsh G Daniel"/>
+                    <div className="overlay-profile">
+                        <div className="team-text">
+                            <h5>Name</h5>
+                            <span>(Post)</span>
+>>>>>>> parent of a44c1a3 (V10)
                             <div className="socialLogos-profile">
                                 <a href="" target="_blank"><FaFacebookF  size="20" /></a>
                                 <a href="" target="_blank"><FaTwitter size="20" /></a>
@@ -138,12 +191,21 @@ function Heads(props) {
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div className="team-box" data-aos="fade-up" data-aos-delay="500">
                     <img src={Front} alt="FEBY SARA SHIBU"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>FEBY SARA SHIBU</h5>
                             <span>(Trainer)</span>
+=======
+                <div className="team-box" data-aos="fade-up" data-aos-delay="700">
+                    <img src={Front} alt="Adarsh G Daniel"/>
+                    <div className="overlay-profile">
+                        <div className="team-text">
+                            <h5>Name</h5>
+                            <span>(Post)</span>
+>>>>>>> parent of a44c1a3 (V10)
                             <div className="socialLogos-profile">
                                 <a href="" target="_blank"><FaFacebookF  size="20" /></a>
                                 <a href="" target="_blank"><FaTwitter size="20" /></a>
@@ -153,6 +215,7 @@ function Heads(props) {
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div className="team-box" data-aos="fade-up" data-aos-delay="100">
                     <img src={Front} alt="Florina"/>
                     <div className="overlay-profile">
@@ -172,6 +235,14 @@ function Heads(props) {
                         <div className="team-text">
                             <h5>JoeHinn</h5>
                             <span>(Trainer)</span>
+=======
+                <div className="team-box" data-aos="fade-up" data-aos-delay="800">
+                    <img src={Front} alt="Adarsh G Daniel"/>
+                    <div className="overlay-profile">
+                        <div className="team-text">
+                            <h5>Name</h5>
+                            <span>(Post)</span>
+>>>>>>> parent of a44c1a3 (V10)
                             <div className="socialLogos-profile">
                                 <a href="" target="_blank"><FaFacebookF  size="20" /></a>
                                 <a href="" target="_blank"><FaTwitter size="20" /></a>
@@ -181,12 +252,21 @@ function Heads(props) {
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div className="team-box" data-aos="fade-up" data-aos-delay="300">
                     <img src={Front} alt="Johnson JP"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Johnson JP</h5>
                             <span>(Trainer)</span>
+=======
+                <div className="team-box" data-aos="fade-up" data-aos-delay="900">
+                    <img src={Front} alt="Adarsh G Daniel"/>
+                    <div className="overlay-profile">
+                        <div className="team-text">
+                            <h5>Name</h5>
+                            <span>(Post)</span>
+>>>>>>> parent of a44c1a3 (V10)
                             <div className="socialLogos-profile">
                                 <a href="" target="_blank"><FaFacebookF  size="20" /></a>
                                 <a href="" target="_blank"><FaTwitter size="20" /></a>
@@ -196,6 +276,7 @@ function Heads(props) {
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div className="team-box" data-aos="fade-up" data-aos-delay="400">
                     <img src={Front} alt="Joy Sam Raj M"/>
                     <div className="overlay-profile">
@@ -307,6 +388,14 @@ function Heads(props) {
                         <div className="team-text">
                             <h5>Vaishnawi Sinha</h5>
                             <span>(Trainer)</span>
+=======
+                <div className="team-box" data-aos="fade-up" data-aos-delay="1000">
+                    <img src={Front} alt="Adarsh G Daniel"/>
+                    <div className="overlay-profile">
+                        <div className="team-text">
+                            <h5>Name</h5>
+                            <span>(Post)</span>
+>>>>>>> parent of a44c1a3 (V10)
                             <div className="socialLogos-profile">
                                 <a href="" target="_blank"><FaFacebookF  size="20" /></a>
                                 <a href="" target="_blank"><FaTwitter size="20" /></a>
