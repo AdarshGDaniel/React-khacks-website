@@ -1,19 +1,13 @@
 import React from 'react';
 import './PastEvents.css'
 import { Link } from "react-router-dom";
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
-import img1 from './Assets/pic1.JPG'
-import img2 from './Assets/pic2.JPG'
-import img3 from './Assets/pic3.png'
-import img4 from './Assets/pic4.JPG'
-import img5 from './Assets/pic5.JPG'
-import img6 from './Assets/pic6.jpg'
-import FiberNewOutlinedIcon from '@material-ui/icons/FiberNewOutlined';
+import img1 from './Assets/AI.JPG'
+import img2 from './Assets/git and github.png'
+import img3 from './Assets/socket.png'
+import img4 from './Assets/Linux funda.png'
+import img5 from './Assets/Comp.png'
+import img6 from './Assets/CTF 2.png'
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -54,12 +48,12 @@ function PastEvents(props) {
                 loop
                 responsive = {state.responsive}
                 data-aos="fade-up" data-aos-delay="300">
-                <CardsScroll image={img1} Title="Bootcamp 1 2021" description="We conducted a Virtual 3 Day Bootcamp for the students on the topics: Python Advanced, Web development and Amazon Alexa & Google Assistant." Date= "3rd to 5th Mar 2021" />
-                <CardsScroll image={img2} Title="Python for all" description="In collabration with CTC (Computer Technology Center) we had a 2 Day Virtual workshop on Python." Date= "26th & 27th Feb 2021" />
-                <CardsScroll image={img3} Title="MLH: Intro to Python" description="KHacks collabrated with MLH (Major League Hacking) and conducted a Python workshop for the beginners." Date= "16th Nov 2020" />
-                <CardsScroll image={img4} Title="LHD Build the Future 2019" description="On (Date) we hit a major milestone, we conducted a 24hr Hackathon for the first time and it was a great success!" Date= "12th - 13th Dec 2019" />
-                <CardsScroll image={img5} Title="Hacktober Fest" description="Hacktober Fest was targeted for the first years to encorage them to code and win prizes. Students learnt about GitHub and its use during this Workshop." Date= "15th Oct 2019" />
-                <CardsScroll image={img6} Title="Bootcamp" description="This was a 4 Day Bootcamp which included Amazon Alexa, Advanced Python, Python Automation and Data Science. " Date= "14th to 23rd Oct 2019" />
+                <CardsScroll image={img1} Title="AI BOOTCAMP 2022" description="KHacks had it's first offline event after the pandemic. A 3 day bootcamp on AI was conducted to give students of all departments a good idea of how AI works and it's uses." Date= "14 to 16 Mar 2022" />
+                <CardsScroll image={img2} Title="GIT & GITHUB" description="Git and GitHub are version control system used in most of the programming companies to maintain the versions of their code. This concept is important for anyone learning to code." Date= "19 Feb 2022" />
+                <CardsScroll image={img3} Title="SOCKET PROGRAMMING" description="In today's world all communications are through networks, KHacks conducted this workshop to make the students understand how communication with each other through network is possible." Date= "16 Feb 2022" />
+                <CardsScroll image={img4} Title="LINUX FUNDAMENTALS" description="Linux is essential for all computer related fields. KHacks trainers helped the students get a introduction and a hands on with this kernal." Date= "12 Feb 2022" />
+                <CardsScroll image={img5} Title="COMPUTATIONAL THINKING IN PYTHON" description="KHacks took the students into a journey of thinking and solving problems with programming language. The students got a hands on with solving problems with python." Date= "05 Feb 2022" />
+                <CardsScroll image={img6} Title="BASICS OF CTF (EXCLUSIVE FOR 1ST YEARS)" description="Since the First years have joined late and to give them an awareness of the threats online, CTF basics was conducted which helped the students to gain knowledge on the important fields of cyber security." Date= "23 Oct 2021" />
             </OwlCarousel>
             <Link to="/PastEvents" style={{ textDecoration: 'none' }} className="container Button-center-past-event"><Button>See more</Button></Link>
         </section>

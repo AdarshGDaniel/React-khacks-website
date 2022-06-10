@@ -10,7 +10,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import CardsLeft from './CardsLeft';
 import CardsRight from './CardsRight';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import pic1 from './Assets/1.jpg';
 import pic2 from './Assets/2.jpg';
 import pic3 from './Assets/3.jpg';
@@ -28,7 +28,17 @@ import pic14 from './Assets/14.JPG';
 import pic15 from './Assets/15.png';
 import pic16 from './Assets/16.JPG';
 import pic17 from './Assets/17.JPG';
-
+import pic18 from './Assets/Git_workshop.png';
+import pic19 from './Assets/Linux.png';
+import pic20 from './Assets/c++.png';
+import pic21 from './Assets/CTF.png';
+import pic22 from './Assets/hacktoberfest.png';
+import pic23 from './Assets/CTF 2.png';
+import pic24 from './Assets/Comp.png';
+import pic25 from './Assets/Linux funda.png';
+import pic26 from './Assets/socket.png';
+import pic27 from './Assets/git and github.png';
+import pic28 from './Assets/AI.JPG';
 
 
 function PastEventsPage(props) {
@@ -42,6 +52,13 @@ function PastEventsPage(props) {
             <NavBar2 page="true"/>
             <div className="timeline-fixed">
                         <Timeline>
+                            <TimelineItem>
+                                <TimelineSeparator>
+                                <TimelineDot />
+                                <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent><Link style={{cursor: 'pointer'}} activeClass="active" to="2022" spy={true} smooth={true} offset={-80} duration={500}>2022</Link></TimelineContent>
+                            </TimelineItem>
                             <TimelineItem>
                                 <TimelineSeparator>
                                 <TimelineDot />
@@ -73,10 +90,25 @@ function PastEventsPage(props) {
                     </div>
                 <div className="container mar-top-100">
                     <div className="contents-block">
+                    <div id="2022" className="topic-year mar-top-100">
+                            <h2>2022</h2>
+                            <div className="line-red"></div>
+                        </div>
+                        <CardsRight image={pic28} date="14 to 16 Mar 2022" title="AI BOOTCAMP 2022" description="KHacks had it's first offline event after the pandemic. A 3 day bootcamp on AI was conducted to give students of all departments a good idea of how AI works and it's uses."/>
+                        <CardsLeft image={pic27} date="19 Feb 2022" title="GIT & GITHUB" description="Git and GitHub are version control system used in most of the programming companies to maintain the versions of their code. This concept is important for anyone learning to code."/>
+                        <CardsRight image={pic26} date="16 Feb 2022" title="SOCKET PROGRAMMING" description="In today's world all communications are through networks, KHacks conducted this workshop to make the students understand how communication with each other through network is possible."/>
+                        <CardsLeft image={pic25} date="12 Feb 2022" title="LINUX FUNDAMENTALS" description="Linux is essential for all computer related fields. KHacks trainers helped the students get a introduction and a hands on with this kernal."/>
+                        <CardsRight image={pic24} date="05 Feb 2022" title="COMPUTATIONAL THINKING IN PYTHON" description="KHacks took the students into a journey of thinking and solving problems with programming language. The students got a hands on with solving problems with python."/>
                         <div id="2021" className="topic-year mar-top-100">
                             <h2>2021</h2>
                             <div className="line-red"></div>
                         </div>
+                        <CardsLeft image={pic23} date="23 Oct 2021" title="BASICS OF CTF (EXCLUSIVE FOR 1ST YEARS)" description="Since the First years have joined late and to give them an awareness of the threats online, CTF basics was conducted which helped the students to gain knowledge on the important fields of cyber security."/>
+                        <CardsRight image={pic22} date="02 Oct 2021" title="HACKTOBERFEST 2021" description="KHacks in collaboration with Digital Ocean and GitHub conducted the HACKTOBERFEST where students learn about repos and how version control works."/>
+                        <CardsLeft image={pic21} date="28 Aug 2021" title="CTF WORKSHOP 2021" description="Students are not aware of the threats online. CTF (capture the flag was conducted to give the students a hands on experience on encoding and decoding hidden messages. Also to know the depths of cyber security.)"/>
+                        <CardsRight image={pic20} date="07 Aug 2021" title="C++ WORKSHOP 2021" description="KHacks trainers focus on training the students on one particular programming language, this year we focused on python and C++."/>
+                        <CardsLeft image={pic19} date="21 July 2021" title="LINUX ESSENTIAL" description="Linux is the base kernel for all the OS, KHacks team gave an intro to students of all department on how a kernel works."/>
+                        <CardsRight image={pic18} date="17 July 2021" title="GIT WORKSHOP 2021" description="Git and GitHub are the most widely used products in today's industries, our trainers at KHacks helped the students get a hands on with this technology."/>
                         <CardsLeft image={pic17} date="03 to 05 Mar 2021" title="BOOTCAMP 1 2021" description="KHacks conducted virtual 3 Day Bootcamp exclusively for the first years, on Python Advanced, Web Development and Virtual Assistant(Amazon Alexa & Google Assistant) topics."/>
                         <CardsRight image={pic16} date="26, 27 Feb 2021" title="PYTHON FOR ALL" description="KHacks in collaboration with CTC (Computer Technology Center) conducted a two day workshop on Python exclusively for the first years."/>
                         <div id="2020" className="topic-year mar-top-100">

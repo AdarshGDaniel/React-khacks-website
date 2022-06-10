@@ -7,7 +7,6 @@
 }
 
 .team-text{
-    text-align: center;
     display: grid;
     place-items: center;
     color: #FFF !important;

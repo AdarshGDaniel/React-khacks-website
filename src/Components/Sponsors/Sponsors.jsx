@@ -16,9 +16,9 @@ function Sponsors(props) {
                 <h4>Why Sponsor Us?</h4>
                 &nbsp;
                 <span>
-                    <p data-aos="fade-up" data-aos-delay="200"><BsBookmarkCheck color="red" fontSize="larger" fontSize="1.5rem" /> &nbsp; <i> Demo your API during the event or showcase your hardware/devices enabling students to tinker and create, while also receiving invaluable feedback to further improve your product.</i></p>
-                    <p data-aos="fade-up" data-aos-delay="300"><BsBookmarkCheck color="red" fontSize="larger" fontSize="1.5rem" />&nbsp; <i> Showcasing your company brand during the Hackathon, allows you a better platform to broadcast your company stature, thus boosting brand recognition, hence encouraging students to know more about your company</i></p>
-                    <p data-aos="fade-up" data-aos-delay="400"><BsBookmarkCheck color="red" fontSize="larger" fontSize="1.5rem" />&nbsp; <i> Also we will promote your brand throughout our event through social media platforms and other platforms</i></p>
+                    <p data-aos="fade-up" data-aos-delay="200"><BsBookmarkCheck color="red" fontSize="1.5rem" /> &nbsp; <i> Demo your API during the event or showcase your hardware/devices enabling students to tinker and create, while also receiving invaluable feedback to further improve your product.</i></p>
+                    <p data-aos="fade-up" data-aos-delay="300"><BsBookmarkCheck color="red" fontSize="1.5rem" /> &nbsp; <i> Showcasing your company brand during the Hackathon, allows you a better platform to broadcast your company stature, thus boosting brand recognition, hence encouraging students to know more about your company</i></p>
+                    <p data-aos="fade-up" data-aos-delay="400"><BsBookmarkCheck color="red" fontSize="1.5rem" /> &nbsp; <i> Also we will promote your brand throughout our event through social media platforms and other platforms</i></p>
                 </span>
             </div>
             <div className="sponsors-logo mar-top-100" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
