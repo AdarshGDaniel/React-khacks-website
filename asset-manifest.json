@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-khacks-website/static/css/main.ee4e1ea8.chunk.css",
-    "main.js": "/React-khacks-website/static/js/main.7dc85324.chunk.js",
-    "main.js.map": "/React-khacks-website/static/js/main.7dc85324.chunk.js.map",
+    "main.js": "/React-khacks-website/static/js/main.d0acec68.chunk.js",
+    "main.js.map": "/React-khacks-website/static/js/main.d0acec68.chunk.js.map",
     "runtime-main.js": "/React-khacks-website/static/js/runtime-main.e93a8a9e.js",
     "runtime-main.js.map": "/React-khacks-website/static/js/runtime-main.e93a8a9e.js.map",
     "static/css/2.8473dddd.chunk.css": "/React-khacks-website/static/css/2.8473dddd.chunk.css",
@@ -35,8 +35,8 @@
     "static/media/CTF 2.bc744e14.png": "/React-khacks-website/static/media/CTF 2.bc744e14.png",
     "static/media/CTF.311a78cd.png": "/React-khacks-website/static/media/CTF.311a78cd.png",
     "static/media/Comp.094c7977.png": "/React-khacks-website/static/media/Comp.094c7977.png",
-    "static/media/Deep1.5d1fc06a.jpeg": "/React-khacks-website/static/media/Deep1.5d1fc06a.jpeg",
-    "static/media/Deep2.b3a312d8.jpeg": "/React-khacks-website/static/media/Deep2.b3a312d8.jpeg",
+    "static/media/Deep1.b3a312d8.jpeg": "/React-khacks-website/static/media/Deep1.b3a312d8.jpeg",
+    "static/media/Deep2.5d1fc06a.jpeg": "/React-khacks-website/static/media/Deep2.5d1fc06a.jpeg",
     "static/media/Gatsby.b205709d.png": "/React-khacks-website/static/media/Gatsby.b205709d.png",
     "static/media/Git_workshop.614f371f.png": "/React-khacks-website/static/media/Git_workshop.614f371f.png",
     "static/media/KHLogo.bb29b59d.png": "/React-khacks-website/static/media/KHLogo.bb29b59d.png",
@@ -65,6 +65,6 @@
     "static/css/2.8473dddd.chunk.css",
     "static/js/2.a670208c.chunk.js",
     "static/css/main.ee4e1ea8.chunk.css",
-    "static/js/main.7dc85324.chunk.js"
+    "static/js/main.d0acec68.chunk.js"
   ]
 }
