@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-khacks-website/static/css/main.89a4d5e2.chunk.css",
-    "main.js": "/React-khacks-website/static/js/main.da35176b.chunk.js",
-    "main.js.map": "/React-khacks-website/static/js/main.da35176b.chunk.js.map",
+    "main.css": "/React-khacks-website/static/css/main.ee4e1ea8.chunk.css",
+    "main.js": "/React-khacks-website/static/js/main.7dc85324.chunk.js",
+    "main.js.map": "/React-khacks-website/static/js/main.7dc85324.chunk.js.map",
     "runtime-main.js": "/React-khacks-website/static/js/runtime-main.e93a8a9e.js",
     "runtime-main.js.map": "/React-khacks-website/static/js/runtime-main.e93a8a9e.js.map",
     "static/css/2.8473dddd.chunk.css": "/React-khacks-website/static/css/2.8473dddd.chunk.css",
-    "static/js/2.05aa034e.chunk.js": "/React-khacks-website/static/js/2.05aa034e.chunk.js",
-    "static/js/2.05aa034e.chunk.js.map": "/React-khacks-website/static/js/2.05aa034e.chunk.js.map",
+    "static/js/2.a670208c.chunk.js": "/React-khacks-website/static/js/2.a670208c.chunk.js",
+    "static/js/2.a670208c.chunk.js.map": "/React-khacks-website/static/js/2.a670208c.chunk.js.map",
     "index.html": "/React-khacks-website/index.html",
     "static/css/2.8473dddd.chunk.css.map": "/React-khacks-website/static/css/2.8473dddd.chunk.css.map",
-    "static/css/main.89a4d5e2.chunk.css.map": "/React-khacks-website/static/css/main.89a4d5e2.chunk.css.map",
-    "static/js/2.05aa034e.chunk.js.LICENSE.txt": "/React-khacks-website/static/js/2.05aa034e.chunk.js.LICENSE.txt",
+    "static/css/main.ee4e1ea8.chunk.css.map": "/React-khacks-website/static/css/main.ee4e1ea8.chunk.css.map",
+    "static/js/2.a670208c.chunk.js.LICENSE.txt": "/React-khacks-website/static/js/2.a670208c.chunk.js.LICENSE.txt",
     "static/media/1.707f053d.jpg": "/React-khacks-website/static/media/1.707f053d.jpg",
     "static/media/1.a1ce133f.jpg": "/React-khacks-website/static/media/1.a1ce133f.jpg",
     "static/media/10.b64f96e6.JPG": "/React-khacks-website/static/media/10.b64f96e6.JPG",
@@ -35,6 +35,8 @@
     "static/media/CTF 2.bc744e14.png": "/React-khacks-website/static/media/CTF 2.bc744e14.png",
     "static/media/CTF.311a78cd.png": "/React-khacks-website/static/media/CTF.311a78cd.png",
     "static/media/Comp.094c7977.png": "/React-khacks-website/static/media/Comp.094c7977.png",
+    "static/media/Deep1.5d1fc06a.jpeg": "/React-khacks-website/static/media/Deep1.5d1fc06a.jpeg",
+    "static/media/Deep2.b3a312d8.jpeg": "/React-khacks-website/static/media/Deep2.b3a312d8.jpeg",
     "static/media/Gatsby.b205709d.png": "/React-khacks-website/static/media/Gatsby.b205709d.png",
     "static/media/Git_workshop.614f371f.png": "/React-khacks-website/static/media/Git_workshop.614f371f.png",
     "static/media/KHLogo.bb29b59d.png": "/React-khacks-website/static/media/KHLogo.bb29b59d.png",
@@ -56,14 +58,13 @@
     "static/media/codeofconduct.31d64566.pdf": "/React-khacks-website/static/media/codeofconduct.31d64566.pdf",
     "static/media/git and github.9f0929d9.png": "/React-khacks-website/static/media/git and github.9f0929d9.png",
     "static/media/hacktoberfest.a1d0da17.png": "/React-khacks-website/static/media/hacktoberfest.a1d0da17.png",
-    "static/media/PricingCards.css": "/React-khacks-website/static/media/imagebg.d42c8dff.jpg",
     "static/media/socket.b9349d24.png": "/React-khacks-website/static/media/socket.b9349d24.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e93a8a9e.js",
     "static/css/2.8473dddd.chunk.css",
-    "static/js/2.05aa034e.chunk.js",
-    "static/css/main.89a4d5e2.chunk.css",
-    "static/js/main.da35176b.chunk.js"
+    "static/js/2.a670208c.chunk.js",
+    "static/css/main.ee4e1ea8.chunk.css",
+    "static/js/main.7dc85324.chunk.js"
   ]
 }
