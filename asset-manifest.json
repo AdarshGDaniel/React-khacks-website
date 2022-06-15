@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/React-khacks-website/static/css/main.ee4e1ea8.chunk.css",
-    "main.js": "/React-khacks-website/static/js/main.ce296bca.chunk.js",
-    "main.js.map": "/React-khacks-website/static/js/main.ce296bca.chunk.js.map",
+    "main.js": "/React-khacks-website/static/js/main.2b60b96e.chunk.js",
+    "main.js.map": "/React-khacks-website/static/js/main.2b60b96e.chunk.js.map",
     "runtime-main.js": "/React-khacks-website/static/js/runtime-main.e93a8a9e.js",
     "runtime-main.js.map": "/React-khacks-website/static/js/runtime-main.e93a8a9e.js.map",
     "static/css/2.8473dddd.chunk.css": "/React-khacks-website/static/css/2.8473dddd.chunk.css",
-    "static/js/2.43132a56.chunk.js": "/React-khacks-website/static/js/2.43132a56.chunk.js",
-    "static/js/2.43132a56.chunk.js.map": "/React-khacks-website/static/js/2.43132a56.chunk.js.map",
+    "static/js/2.5b3f822e.chunk.js": "/React-khacks-website/static/js/2.5b3f822e.chunk.js",
+    "static/js/2.5b3f822e.chunk.js.map": "/React-khacks-website/static/js/2.5b3f822e.chunk.js.map",
     "index.html": "/React-khacks-website/index.html",
     "static/css/2.8473dddd.chunk.css.map": "/React-khacks-website/static/css/2.8473dddd.chunk.css.map",
     "static/css/main.ee4e1ea8.chunk.css.map": "/React-khacks-website/static/css/main.ee4e1ea8.chunk.css.map",
-    "static/js/2.43132a56.chunk.js.LICENSE.txt": "/React-khacks-website/static/js/2.43132a56.chunk.js.LICENSE.txt",
+    "static/js/2.5b3f822e.chunk.js.LICENSE.txt": "/React-khacks-website/static/js/2.5b3f822e.chunk.js.LICENSE.txt",
     "static/media/1.707f053d.jpg": "/React-khacks-website/static/media/1.707f053d.jpg",
     "static/media/1.a1ce133f.jpg": "/React-khacks-website/static/media/1.a1ce133f.jpg",
     "static/media/10.b64f96e6.JPG": "/React-khacks-website/static/media/10.b64f96e6.JPG",
@@ -37,13 +37,11 @@
     "static/media/Comp.094c7977.png": "/React-khacks-website/static/media/Comp.094c7977.png",
     "static/media/Deep1.b3a312d8.jpeg": "/React-khacks-website/static/media/Deep1.b3a312d8.jpeg",
     "static/media/Deep2.5d1fc06a.jpeg": "/React-khacks-website/static/media/Deep2.5d1fc06a.jpeg",
-    "static/media/Gatsby.b205709d.png": "/React-khacks-website/static/media/Gatsby.b205709d.png",
     "static/media/Git_workshop.614f371f.png": "/React-khacks-website/static/media/Git_workshop.614f371f.png",
     "static/media/KHLogo.bb29b59d.png": "/React-khacks-website/static/media/KHLogo.bb29b59d.png",
     "static/media/KHacksVID.8da0218c.mp4": "/React-khacks-website/static/media/KHacksVID.8da0218c.mp4",
     "static/media/Linux funda.8ea7a0d5.png": "/React-khacks-website/static/media/Linux funda.8ea7a0d5.png",
     "static/media/Linux.98e650ec.png": "/React-khacks-website/static/media/Linux.98e650ec.png",
-    "static/media/Znetlive.ce257f4c.png": "/React-khacks-website/static/media/Znetlive.ce257f4c.png",
     "static/media/b1.475619ca.jpg": "/React-khacks-website/static/media/b1.475619ca.jpg",
     "static/media/b10.19980340.jpg": "/React-khacks-website/static/media/b10.19980340.jpg",
     "static/media/b11.ccba2668.jpg": "/React-khacks-website/static/media/b11.ccba2668.jpg",
@@ -77,8 +75,8 @@
   "entrypoints": [
     "static/js/runtime-main.e93a8a9e.js",
     "static/css/2.8473dddd.chunk.css",
-    "static/js/2.43132a56.chunk.js",
+    "static/js/2.5b3f822e.chunk.js",
     "static/css/main.ee4e1ea8.chunk.css",
-    "static/js/main.ce296bca.chunk.js"
+    "static/js/main.2b60b96e.chunk.js"
   ]
 }
