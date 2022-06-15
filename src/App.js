@@ -1,5 +1,6 @@
+import React, { useEffect } from 'react';
 import './App.css';
-import { Route, HashRouter as Router, Switch } from "react-router-dom";
+import { Route, HashRouter as Router, Link, Switch } from "react-router-dom";
 import Home from "./Components/Home/Home"
 import ContactUs from './Components/ContactUs/ContactUs'
 import PastEventsPage from './Components/PastEventsPage/PastEventsPage'

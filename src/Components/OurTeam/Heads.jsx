@@ -1,15 +1,23 @@
 import React from 'react'
 import './Heads.css'
-import Adarsh from './Assets/adarsh.jpg'
-<<<<<<< HEAD
-=======
-import SaranSud from './Assets/saransud.jpg'
-import Sharan from './Assets/sharan.jpeg'
-import JoeSam from './Assets/josephsam.JPG'
->>>>>>> parent of a44c1a3 (V10)
-import Ben from './Assets/benvin.jpeg'
-import Front from './Assets/front.jpg'
-import { FaTelegramPlane, FaInstagram, FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import b1 from './Assets/b1.jpg'
+import b2 from './Assets/b2.jpg'
+import b3 from './Assets/b3.jpg'
+import b4 from './Assets/b4.jpg'
+import b5 from './Assets/b5.jpg'
+import b6 from './Assets/b6.jpg'
+import b7 from './Assets/b7.jpg'
+import b8 from './Assets/b8.jpg'
+import b9 from './Assets/b9.jpg'
+import b10 from './Assets/b10.jpg'
+import b11 from './Assets/b11.jpg'
+import b12 from './Assets/b12.jpg'
+import g1 from './Assets/g1.jpg'
+import g2 from './Assets/g2.jpg'
+import g3 from './Assets/g3.jpg'
+import g4 from './Assets/g4.jpg'
+import g5 from './Assets/g5.jpg'
+import { FaGithub, FaLink, FaTelegramPlane, FaInstagram, FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 
 function Heads(props) {
@@ -19,388 +27,238 @@ function Heads(props) {
         <div className="Heads-profile container">
             <div className="row">
                 <div className="team-box" data-aos="fade-up" data-aos-delay="100">
-                    <img src={Adarsh} alt="Adarsh G Daniel"/>
+                    <img src={b1} alt="Adarsh G Daniel"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Adarsh G Daniel</h5>
                             <span>(Event Cordinator)</span>
                             <div className="socialLogos-profile">
-                                <a href="https://www.facebook.com/adarshg.daniel/" rel="noreferrer" target="_blank"><FaFacebookF size="20" /></a>
-                                <a href="https://twitter.com/Adarsh_G_Daniel" rel="noreferrer" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="https://www.linkedin.com/in/adarsh-g-daniel-25b236192/" rel="noreferrer" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="https://www.instagram.com/accounts/login/?next=/adarsh_g_daniel/" rel="noreferrer" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://www.facebook.com/adarshg.daniel/" target="_blank"><FaFacebookF size="20" /></a>
+                                <a href="https://twitter.com/Adarsh_G_Daniel" target="_blank"><FaTwitter size="20" /></a>
+                                <a href="https://www.linkedin.com/in/adarsh-g-daniel-25b236192/" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="https://www.instagram.com/accounts/login/?next=/adarsh_g_daniel/" target="_blank"><FaInstagram size="20" /></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="200">
-                    <img src={Ben} alt="Adarsh G Daniel"/>
+                    <img src={b2} alt="Benvin"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Benvin</h5>
                             <span>(Event Cordinator)</span>
                             <div className="socialLogos-profile">
-<<<<<<< HEAD
-                                <a href="https://www.facebook.com/benvin.david" rel="noreferrer" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="https://www.linkedin.com/in/benvin-david/" rel="noreferrer" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="https://www.instagram.com/benvin_david/" rel="noreferrer" target="_blank"><FaInstagram size="20" /></a>
-=======
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
->>>>>>> parent of a44c1a3 (V10)
+                                <a href="https://www.facebook.com/benvin.david" target="_blank"><FaFacebookF  size="20" /></a>
+                                <a href="https://www.linkedin.com/in/benvin-david/" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="https://www.instagram.com/benvin_david/" target="_blank"><FaInstagram size="20" /></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="300">
-<<<<<<< HEAD
-                    <img src={Front} alt="Ashvin Vinu"/>
-=======
-                    <img src={JoeSam} alt="Adarsh G Daniel"/>
->>>>>>> parent of a44c1a3 (V10)
+                    <img src={b3} alt="Ashvin Vinu"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Ashvin Vinu</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
-<<<<<<< HEAD
-=======
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
->>>>>>> parent of a44c1a3 (V10)
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://acedev003.github.io/" target="_blank"><FaLink size="20" /></a>
+                                <a href="https://github.com/Acedev003" target="_blank"><FaGithub size="20" /></a>
+                                <a href="https://www.instagram.com/acedev003/" target="_blank"><FaInstagram size="20" /></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="400">
-<<<<<<< HEAD
-                    <img src={Front} alt="Asir Sam Shanoon A"/>
+                    <img src={b4} alt="Asir Sam Shanoon A"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Asir Sam Shanoon A</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
-=======
-                    <img src={SaranSud} alt="Adarsh G Daniel"/>
-                    <div className="overlay-profile">
-                        <div className="team-text">
-                            <h5>Saran Sudheer</h5>
-                            <span>(Programming Trainer)</span>
-                            <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
->>>>>>> parent of a44c1a3 (V10)
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="team-box" data-aos="fade-up" data-aos-delay="500">
-<<<<<<< HEAD
-                    <img src={Front} alt="Dakshnakumar"/>
-                    <div className="overlay-profile">
-                        <div className="team-text">
-                            <h5>Dakshnakumar</h5>
-                            <span>(Game Dev Trainer)</span>
-                            <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-=======
-                    <img src={Sharan} alt="Adarsh G Daniel"/>
-                    <div className="overlay-profile">
-                        <div className="team-text">
-                            <h5>Sharan</h5>
-                            <span>(Web Dev Trainer)</span>
-                            <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
->>>>>>> parent of a44c1a3 (V10)
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="row">
-<<<<<<< HEAD
-                <div className="team-box" data-aos="fade-up" data-aos-delay="100">
-                    <img src={Front} alt="Daniel Gunasekaran"/>
-                    <div className="overlay-profile">
-                        <div className="team-text">
-                            <h5>Daniel Gunasekaran</h5>
-                            <span>(Trainer)</span>
-                            <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                {/* <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="" target="_blank"><FaInstagram size="20" /></a> */}
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="200">
-                    <img src={Front} alt="David Sanjeet Kumar"/>
+                    <img src={b5} alt="David Sanjeet Kumar"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>David Sanjeet Kumar</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://github.com/Davidskumar" target="_blank"><FaGithub  size="20" /></a>
+                                <a href="https://www.linkedin.com/in/david-sanjeet-kumar-b38401209/" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="https://www.instagram.com/rusian2824/?hl=en" target="_blank"><FaInstagram size="20" /></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="300">
-                    <img src={Front} alt="Elvina Sharon"/>
+                    <img src={g1} alt="Elvina Sharon"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Elvina Sharon</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://github.com/elvinasharon" target="_blank"><FaGithub  size="20" /></a>
+                                <a href="https://www.linkedin.com/in/elvina-sharon-31aug2002/" target="_blank"><FaLinkedinIn size="20" /></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="400">
-                    <img src={Front} alt="Emi Mary Rose"/>
+                    <img src={g2} alt="Emi Mary Rose"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Emi Mary Rose</h5>
                             <span>(Trainer)</span>
-=======
-                <div className="team-box" data-aos="fade-up" data-aos-delay="600">
-                    <img src={Front} alt="Adarsh G Daniel"/>
-                    <div className="overlay-profile">
-                        <div className="team-text">
-                            <h5>Name</h5>
-                            <span>(Post)</span>
->>>>>>> parent of a44c1a3 (V10)
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://www.linkedin.com/in/emimaryrose111202/" target="_blank"><FaLinkedinIn size="20" /></a>
                             </div>
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
                 <div className="team-box" data-aos="fade-up" data-aos-delay="500">
-                    <img src={Front} alt="FEBY SARA SHIBU"/>
+                    <img src={g3} alt="FEBY SARA SHIBU"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>FEBY SARA SHIBU</h5>
                             <span>(Trainer)</span>
-=======
-                <div className="team-box" data-aos="fade-up" data-aos-delay="700">
-                    <img src={Front} alt="Adarsh G Daniel"/>
-                    <div className="overlay-profile">
-                        <div className="team-text">
-                            <h5>Name</h5>
-                            <span>(Post)</span>
->>>>>>> parent of a44c1a3 (V10)
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://www.linkedin.com/in/feby-sara-shibu-3a5400209/" target="_blank"><FaLinkedinIn size="20" /></a>
                             </div>
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
                 <div className="team-box" data-aos="fade-up" data-aos-delay="100">
-                    <img src={Front} alt="Florina"/>
+                    <img src={g4} alt="Florina"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Florina</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                {/* <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="" target="_blank"><FaInstagram size="20" /></a> */}
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="200">
-                    <img src={Front} alt="JoeHinn"/>
+                    <img src={b6} alt="JoeHinn"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>JoeHinn</h5>
                             <span>(Trainer)</span>
-=======
-                <div className="team-box" data-aos="fade-up" data-aos-delay="800">
-                    <img src={Front} alt="Adarsh G Daniel"/>
-                    <div className="overlay-profile">
-                        <div className="team-text">
-                            <h5>Name</h5>
-                            <span>(Post)</span>
->>>>>>> parent of a44c1a3 (V10)
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
+                                {/* <a href="" target="_blank"><FaFacebookF  size="20" /></a>
                                 <a href="" target="_blank"><FaTwitter size="20" /></a>
                                 <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="" target="_blank"><FaInstagram size="20" /></a> */}
                             </div>
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
-                <div className="team-box" data-aos="fade-up" data-aos-delay="300">
-                    <img src={Front} alt="Johnson JP"/>
-                    <div className="overlay-profile">
-                        <div className="team-text">
-                            <h5>Johnson JP</h5>
-                            <span>(Trainer)</span>
-=======
-                <div className="team-box" data-aos="fade-up" data-aos-delay="900">
-                    <img src={Front} alt="Adarsh G Daniel"/>
-                    <div className="overlay-profile">
-                        <div className="team-text">
-                            <h5>Name</h5>
-                            <span>(Post)</span>
->>>>>>> parent of a44c1a3 (V10)
-                            <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-<<<<<<< HEAD
                 <div className="team-box" data-aos="fade-up" data-aos-delay="400">
-                    <img src={Front} alt="Joy Sam Raj M"/>
+                    <img src={b7} alt="Joy Sam Raj M"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Joy Sam Raj M</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://www.joysam.me/" target="_blank"><FaLink  size="20" /></a>
+                                <a href="https://github.com/JOY-SAM" target="_blank"><FaGithub size="20" /></a>
+                                <a href="https://in.linkedin.com/in/joy-sam-raj" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="https://www.instagram.com/joy_wayne_14/" target="_blank"><FaInstagram size="20" /></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="400">
-                    <img src={Front} alt="P. Arnold Anand"/>
+                    <img src={b8} alt="P. Arnold Anand"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>P. Arnold Anand</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://github.com/arnold-anand" target="_blank"><FaGithub  size="20" /></a>
+                                <a href="https://www.linkedin.com/in/arnold-anand/" target="_blank"><FaLinkedinIn size="20" /></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="400">
-                    <img src={Front} alt="Paritosh Sahu"/>
+                    <img src={b9} alt="Paritosh Sahu"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Paritosh Sahu</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
+                                {/* <a href="" target="_blank"><FaFacebookF  size="20" /></a>
                                 <a href="" target="_blank"><FaTwitter size="20" /></a>
                                 <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="" target="_blank"><FaInstagram size="20" /></a> */}
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="400">
-                    <img src={Front} alt="Pavitra Pati"/>
+                    <img src={b10} alt="Pavitra Pati"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Pavitra Pati</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://github.com/pavitrapati" target="_blank"><FaGithub  size="20" /></a>
+                                <a href="https://www.linkedin.com/in/pavitra-pati-324636209" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="https://www.instagram.com/pavitraxdr/?hl=en" target="_blank"><FaInstagram size="20" /></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="400">
-                    <img src={Front} alt="Renuka Rajpuria"/>
-                    <div className="overlay-profile">
-                        <div className="team-text">
-                            <h5>Renuka Rajpuria</h5>
-                            <span>(Trainer)</span>
-                            <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="team-box" data-aos="fade-up" data-aos-delay="400">
-                    <img src={Front} alt="Roshan Daniel"/>
+                    <img src={b11} alt="Roshan Daniel"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Roshan Daniel</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
-                                <a href="" target="_blank"><FaTwitter size="20" /></a>
-                                <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="https://www.facebook.com/roshan.daniel.980" target="_blank"><FaFacebookF  size="20" /></a>
+                                <a href="https://github.com/RoshanDaniel1208" target="_blank"><FaGithub size="20" /></a>
+                                <a href="https://www.linkedin.com/in/roshan-daniel-6490b41b9/" target="_blank"><FaLinkedinIn size="20" /></a>
+                                <a href="https://www.instagram.com/danonymous99/" target="_blank"><FaInstagram size="20" /></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="400">
-                    <img src={Front} alt="S Parthiban"/>
+                    <img src={b12} alt="S Parthiban"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>S Parthiban</h5>
                             <span>(Trainer)</span>
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
+                                {/* <a href="" target="_blank"><FaFacebookF  size="20" /></a>
                                 <a href="" target="_blank"><FaTwitter size="20" /></a>
                                 <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="" target="_blank"><FaInstagram size="20" /></a> */}
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="team-box" data-aos="fade-up" data-aos-delay="400">
-                    <img src={Front} alt="Vaishnawi Sinha"/>
+                    <img src={g5} alt="Vaishnawi Sinha"/>
                     <div className="overlay-profile">
                         <div className="team-text">
                             <h5>Vaishnawi Sinha</h5>
                             <span>(Trainer)</span>
-=======
-                <div className="team-box" data-aos="fade-up" data-aos-delay="1000">
-                    <img src={Front} alt="Adarsh G Daniel"/>
-                    <div className="overlay-profile">
-                        <div className="team-text">
-                            <h5>Name</h5>
-                            <span>(Post)</span>
->>>>>>> parent of a44c1a3 (V10)
                             <div className="socialLogos-profile">
-                                <a href="" target="_blank"><FaFacebookF  size="20" /></a>
+                                {/* <a href="" target="_blank"><FaFacebookF  size="20" /></a>
                                 <a href="" target="_blank"><FaTwitter size="20" /></a>
                                 <a href="" target="_blank"><FaLinkedinIn size="20" /></a>
-                                <a href="" target="_blank"><FaInstagram size="20" /></a>
+                                <a href="" target="_blank"><FaInstagram size="20" /></a> */}
                             </div>
                         </div>
                     </div>

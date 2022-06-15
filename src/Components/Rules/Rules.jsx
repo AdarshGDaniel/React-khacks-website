@@ -18,7 +18,7 @@ function Rules(props) {
     }
 
     function nextPage(){
-        if(pageNumber !== numPages){
+        if(pageNumber != numPages){
             setPageNumber(pageNumber + 1);
         }
     }

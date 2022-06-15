@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tab, Row, Nav, Col } from 'react-bootstrap'
+import { Tab, Row, Nav, Col, Sonnet } from 'react-bootstrap'
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -39,6 +39,7 @@ const useStyles = makeStyles((theme) => ({
 function Schedule(props) {
 
   const classes = useStyles();
+  const theme = useTheme();
 
 
   return (
@@ -78,7 +79,7 @@ function Schedule(props) {
                       </Typography>
                     </CardContent>
                     <div className={classes.controls}>
-                        <a style={{textDecoration: 'none', cursor: 'not-allowed'}} target="_blank" ><Button disabled className="RegisterIcon btn-disabled">Registration not Started</Button></a>
+                      <a style={{textDecoration: 'none', cursor: 'not-allowed'}} target="_blank" href=""><Button className="RegisterIcon">Registration not Started</Button></a>
                     </div>
                   </div>
                   <CardMedia

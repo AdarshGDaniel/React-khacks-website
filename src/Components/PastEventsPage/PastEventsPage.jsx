@@ -10,7 +10,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import CardsLeft from './CardsLeft';
 import CardsRight from './CardsRight';
-import { Link } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 import pic1 from './Assets/1.jpg';
 import pic2 from './Assets/2.jpg';
 import pic3 from './Assets/3.jpg';
@@ -38,7 +38,9 @@ import pic24 from './Assets/Comp.png';
 import pic25 from './Assets/Linux funda.png';
 import pic26 from './Assets/socket.png';
 import pic27 from './Assets/git and github.png';
-import pic28 from './Assets/AI.JPG';
+import pic28 from './Assets/AI.jpeg';
+import pic29 from './Assets/Deep1.jpeg';
+import pic30 from './Assets/Deep2.jpeg';
 
 
 function PastEventsPage(props) {
@@ -94,6 +96,8 @@ function PastEventsPage(props) {
                             <h2>2022</h2>
                             <div className="line-red"></div>
                         </div>
+                        <CardsRight image={pic30} date="28, 29 Apr 2022" title="DEEP RACER 2022 (Workshop 2 | EXCLUSIVE FOR 1ST YEARS)" description="KHacks conducted another AWS deepracer workshop where the first year students were given same kind of hands-on sessions on how to design a self driving car model."/>
+                        <CardsLeft image={pic29} date="21 Mar 2022" title="DEEP RACER 2022 (Workshop 1)" description="KHacks conducted AWS deepracer workshop where the students were give hands-on sessions on how to design a self driving car model which runs using AWS."/>
                         <CardsRight image={pic28} date="14 to 16 Mar 2022" title="AI BOOTCAMP 2022" description="KHacks had it's first offline event after the pandemic. A 3 day bootcamp on AI was conducted to give students of all departments a good idea of how AI works and it's uses."/>
                         <CardsLeft image={pic27} date="19 Feb 2022" title="GIT & GITHUB" description="Git and GitHub are version control system used in most of the programming companies to maintain the versions of their code. This concept is important for anyone learning to code."/>
                         <CardsRight image={pic26} date="16 Feb 2022" title="SOCKET PROGRAMMING" description="In today's world all communications are through networks, KHacks conducted this workshop to make the students understand how communication with each other through network is possible."/>
@@ -126,7 +130,7 @@ function PastEventsPage(props) {
                         <CardsLeft image={pic11} date="14, 16, 18, 23, 24 Oct 2019" title="BOOTCAMP" description="The Bootcamp event designed solely for the first years comprised of the topics 1)Amazon Alexa, 2)Advanced Python, 3)Python Automation & 4)Data Science; were taught to students over a span of 5 days (2 hrs/day). 70 - 120 students participated and gained knowledge & hands-on experience on the aforementioned topics. "/>
                         <CardsRight image={pic10} date="09 Oct 2019" title="HACKTOBER-FEST" description="KarunyaHacks team provided a platform for the students to contribute towards the open-source community by admitting them to the “HacktoberFest in Karunya” event. Over 130 students participated and the majority of them received t-shirts, goods & swags from the Hacktoberfest team for completing six contributions within the prescribed time."/>
                         <CardsLeft image={pic9} date="13, 14 Sep 2019" title="PYTHON WORKSHOP FOR NON-CSE STUDENT" description="A programming session on python language was organized exclusively for the non CS students where they were taught about basics & object oriented concepts. A total of 58 students participated in the full-day workshop."/>
-                        <CardsRight image={pic8} date="18 March 2019" title="BASICS OF WEN DEVELOPMENT" description="This workshop was hosted exclusively for 1st year students to participate, conducted in collaboration with Major League Hacking. 52 students participated for the 2-hour programme where they learnt how to build a website using HTML and CSS."/>
+                        <CardsRight image={pic8} date="18 March 2019" title="BASICS OF WEB DEVELOPMENT" description="This workshop was hosted exclusively for 1st year students to participate, conducted in collaboration with Major League Hacking. 52 students participated for the 2-hour programme where they learnt how to build a website using HTML and CSS."/>
                         <CardsLeft image={pic7} date="20 Feb 2019" title="PYTHON FOR DATA SCIENCE" description="Girls Wing of KarunyaHacks conducted a workshop on 'Python for Data science' on 20th Feb in order to empower the girl community.The workshop was planned, organized and attended by girl students."/>
                         <CardsRight image={pic6} date="14 Feb 2019" title="CYBER SECURITY WORKSHOP" description="KarunyaHacks organized a workshop on 'Cyber Security' on 14th Feb lead by Mr. Sathish Kumar in Karunya Institute of Technology and Sciences."/>
                         <div id="2018" className="topic-year mar-top-100">
