@@ -31,7 +31,7 @@ function About(props) {
                     <a href="https://karunya.edu" target="_blank"><i>View more about Karunya<IoIosLink className="link-hover" /></i></a>
                 </div>
                 <div className="container-fluid mar-top-bot-50" data-aos="fade-up" data-aos-delay="200">
-                    <h4>Who do we do?</h4>
+                    <h4>What do we do?</h4>
                     <p>We aim to serve students in their professional pursuit of learning and research. We help students to take up projects to solve problems in areas related to Water, Food, Health and Energy through scientific innovation and technological research.</p>
                     <Collapse in={val}>
                         <p>We conduct events and hackathons which nurtures the capabilities of students in our community.</p>
